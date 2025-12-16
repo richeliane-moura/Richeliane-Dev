@@ -1,6 +1,7 @@
 export default function Projects() {
   const projetos = [
     {
+<<<<<<< HEAD
       nome: 'MinhaLoja — React Front-end',
       descricao: 'E-commerce fictício consumindo API Fake Store, com carrinho de compras e gerenciamento via localStorage.',
       link: 'https://richeliane-moura.github.io/MinhaLoja-React/',
@@ -68,6 +69,27 @@ export default function Projects() {
     },
     
 
+=======
+      nome: 'Quiz-React',
+      descricao: 'Um quiz interativo feito em React, onde você pode escolher categorias, responder perguntas e acompanhar sua pontuação.',
+      link: 'https://richeliane-moura.github.io/quiz-react/'
+    },
+    {
+      nome: 'Lista de tarefas React',
+      descricao: 'Aplicativo de tarefas feito com React e localStorage',
+      link: 'https://richeliane-moura.github.io/todoList-react/'
+    },
+    {
+      nome: 'Meu Portfolio',
+      descricao: 'Bem-vindo ao meu portfólio online! Aqui você encontra meus projetos, habilidades e informações sobre minha formação. Este projeto foi desenvolvido utilizando HTML5 , CSS3 e JavaScript .',
+      link: 'https://richeliane-moura.github.io/portfolio/'
+    },
+     {
+      nome: 'Richeliane Dev',
+      descricao: 'Website para apresentar projetos e contato',
+      link: 'https://richeliane-moura.github.io/Richeliane-Dev/'
+    }
+>>>>>>> 668d22c88c06c5d0188d4b46e824311403ceb14a
   ];
 
   return (
@@ -78,6 +100,7 @@ export default function Projects() {
           <article className="project-card" key={i}>
             <h3>{p.nome}</h3>
             <p>{p.descricao}</p>
+<<<<<<< HEAD
             <div className="project-links">
               {p.link && (
                 <a className="btn-small" href={p.link} target="_blank" rel="noreferrer">
@@ -90,6 +113,9 @@ export default function Projects() {
                 </a>
               )}
             </div>
+=======
+            <a className="btn-small" href={p.link} target="_blank" rel="noreferrer">Ver projeto</a>
+>>>>>>> 668d22c88c06c5d0188d4b46e824311403ceb14a
           </article>
         ))}
       </div>
